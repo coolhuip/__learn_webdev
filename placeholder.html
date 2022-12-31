@@ -11,10 +11,47 @@
 
 <body>
 
-  <iframe src="https://google.com">
-  </iframe>
 
-  <!-- <div> tags -->
+
+  <!-- HTML Forms:
+
+    Form data is submitted to a form-handler, which is usually
+      a file on the server with a script for processing inputs.
+    
+    The form-handler is specified in the form's action attribute.     
+  -->
+  <form action="form.html" method="POST">
+    
+    <label for="username">Username</label>
+    <br>
+    <input type="text" name="username" id="username">
+    <br>
+    
+    <label for="password">Password</label>
+    <br>
+    <input type="text" name="password" id="password">
+    <br>
+
+    <br>
+
+    
+    <label for="mycheckbox">my checkbox</label>
+    <br>
+    <input type="checkbox" name="mycheckbox" id="mycheckbox">
+    <br>
+    
+    <label for="radiohead">See the radio button below? When it's clicked, the value "bruh" will be sent to the backend server.</label>
+    <br>
+    <input type="radio" name="radiohead" id="radiohead" value="bruh">
+    <br>
+
+    <input type="submit" value="sEnD">
+  
+  </form>
+
+
+
+  <!-- <div> Tags -->
   <div style="background-color: rgb(26, 113, 34); color: rgb(225, 244, 25)">
     <h1>First Div</h1>
     <b>
@@ -22,6 +59,8 @@
     We either burn in a melting pot, or grow in a garden pot.<br>
     </b>
   </div>
+
+
 
   <!-- Lists, Ordered Lists, Unordered Lists, Description Lists -->
   <dl>
@@ -48,6 +87,7 @@
   </ul>
 
 
+
   <!-- Tables -->
   <table border="9">
     <tr>
@@ -65,10 +105,11 @@
     <tr>
       <td>Mista Ben</td>
       <td>409979908</td>
-      <td>Doggology</td>
+      <td>Doggiology</td>
       <td>4.10</td>
     </tr>
   </table>
+
 
 
   <!-- Pre-Formatted Text -->
@@ -79,6 +120,7 @@ This is a block of pre-formatted text.
   In other words, any whitespaces that are present in the source code are ac
  counted for in the rendering. This also includes newlines. 
   </pre>
+
 
 
   <!-- Texts -->
@@ -117,8 +159,10 @@ This is a block of pre-formatted text.
 
   <br><br><br>
 
+
+
   <!-- Hyperlink -->
-  <a href="mailto:darnel@codge.bruh">Send email to codge_</a><br>
+  <a href="mailto:darnel@codge.bruh">Send email to codge&#8482 </a><br>
   <a href="https://www.youtube.com">Click this link to go to YouTube.com</a><br>
   <a href="https://www.youtube.com" target="_blank">Same thing, except in a new tab</a><br>
 
@@ -141,8 +185,20 @@ This is a block of pre-formatted text.
 
   <br>
 
+
+
   <!-- Image Embedding -->
   <img src="img/bruh.jpg" height="250" width="500">
+  <br><br><br>
+
+
+
+  <!-- Inline frames are websites within a website. Aka. WEBSITECEPTION -->
+  <iframe src="https://google.com" height="400" width="900" style="border: none;">
+  </iframe>
+
+
+
 
 
 
