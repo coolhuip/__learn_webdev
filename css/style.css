@@ -1,7 +1,6 @@
 body {
   background-color:rgb(65, 198, 48);
   background-image:url("../img/tile.png");
-  background-blend-mode:color-dodge;
   background-position:left top;
 }
 
