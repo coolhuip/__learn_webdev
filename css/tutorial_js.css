@@ -23,14 +23,20 @@ body {
 }
 
 #stats {
-  border: 1px black solid;
+  border-top: 1px black solid;     /* m */
+  border-left: 1px black solid;     /* m */
+  border-right: 1px black solid;     /* m */
+  /* border: 1px black solid; */
   color: black;
   padding: 5px;
 }
 
 #monsterStats {
   display: none;
-  border: 1px black solid;
+  border-left: 1px black solid;     /* m */
+  border-right: 1px black solid;     /* m */
+  border-bottom: 1px black solid;     /* m */
+  /* border: 1px black solid; */
   color: white;
   padding: 5px;
   background-color: red;
