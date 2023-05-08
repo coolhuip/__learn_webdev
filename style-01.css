@@ -1,0 +1,48 @@
+html {
+    background-color: powderblue;
+}
+
+.page-title {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: skyblue;
+    margin: 0px;
+    text-align: center;
+    }
+
+/*navbar*/
+.fixed-bar {
+    height: 80px;
+}
+
+.navigation {
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li, .navigation a {
+    display: inline-block;
+    background-color: azure;
+    width: 50%;
+    margin: 0 10px 0 10px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    margin:10px;
+}
