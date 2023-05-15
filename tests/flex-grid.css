@@ -1,3 +1,76 @@
 html {
+    background: bisque;
+}
+
+body {
     margin: 0;
+}
+
+
+.grid-parent {
+    background: rgb(0, 0, 0);
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 100px 1fr 200px;
+    grid-template-columns: 13fr 8fr;
+    grid-template-areas:
+      "top top"
+      "left right"
+      "bottom bottom";
+    gap: 5px;
+}
+
+.grid-top {
+    grid-area: top;
+    background: rgb(240, 240, 126);
+}
+
+.grid-left {
+    grid-area: left;
+    background: rgb(189, 189, 255);
+}
+
+.grid-right {
+    grid-area: right;
+    background: rgb(195, 247, 195);
+}
+
+.grid-bottom {
+    grid-area: bottom;
+    background: rgb(255, 168, 236);
+}
+
+
+
+
+
+.flex-container {
+    /* First, create a flex layout context */
+    display: flex;
+
+    /* Next, define flex direction and wrapping */
+    flex-flow: row wrap;
+
+    /* Then, define how content is distributed in space */
+    justify-content: flex-start;
+
+    /* Housekeeping */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 8px;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
 }
